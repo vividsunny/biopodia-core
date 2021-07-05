@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/********* CSS for List Of Product Table End ************************/
+.hide{
+	display: none;
+}
+
+.biopodia-require, .biopodia-program-error {
+    color: red;
+}
+#biopodia-program .form-table td, #biopodia-program label {
+    vertical-align: top;
+}
+/********* CSS for List Of Product Table Start ************************/
+
+.categories #post_title {
+    width: 20%;
+}
+.categories #post_content {
+    width: 25%;
+}
+.categories #post_date {
+    width: 15%;
+}
+/********* CSS for List Of Product Table End ************************/
+
+.biopodia-pending {
+    background-color: #FFFFF0;
+}
+.biopodia-approved {
+    background-color: #F0FFFF;
+}
+.biopodia-cancelled {
+    background-color: #FFF0FF;
+}
+
+/********* CSS for file-upload ************************/
+aks-file-upload, video-file-upload, audio-file-upload {
+  width: 1024px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+#uploadfile, #uploadvideo, #uploadAudio{
+    width: 80%;
+    margin: 0 auto;
+    color: #002c7b;
+    line-height:1.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
